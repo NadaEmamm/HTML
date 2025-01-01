@@ -1,0 +1,117 @@
+
+FOoter{
+    text-align: center;
+}
+/* Question 2 */
+.center{
+width: 100%;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
+.card{
+    width: 700px;
+    border: 5px black solid;
+    border-radius: 5px;
+    padding: 10px;
+    grid-column-start: 2;
+}
+.Q2{
+    text-align: center;
+}
+#Q5{
+    background-image: url('../lab1/iti.jpg');
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+
+}
+.name{
+padding: 10px;
+align-self: center;
+}
+.profile{
+    display: flex;
+    justify-content: space-between;
+}
+.link{
+    background: none; 
+    border: none;
+    color: blue;
+    text-decoration: underline; 
+    font-size: 16px; 
+    padding: 0; 
+
+}
+.link:hover{
+    background-color: blueviolet;
+    cursor: pointer; 
+
+}
+/* Question 3 */
+
+.Q3 a{
+    background-color:gainsboro;
+    text-decoration: none;
+    color: black;
+    font-size:13px;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+.Q3 a:hover{
+    background-color: brown;
+    cursor:default;
+}
+.Q4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr ;
+    width: 400px;
+    text-align: center;
+
+}
+.Gallery{
+    grid-row-start:1 ;
+    grid-column-start: 2;
+
+}   
+.pic{
+    grid-row-start:2 ;
+    margin: 5px;
+}
+/* Forms */
+.Q5{
+width: 400px;
+margin: 10px;
+}
+.Q5 label{
+    margin: 5px;
+
+}
+.Q5 input{
+margin: 5px;
+}
+select{
+    margin: 5px;
+}
+/* Typography */
+.Test_one{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:large;
+    color: red;
+}
+.Test_two{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color: gray;
+}
+p{
+    line-height: 20px;
+}
+h2{
+    letter-spacing: 10px;
+}
+
