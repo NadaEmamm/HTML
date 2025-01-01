@@ -1,0 +1,75 @@
+/* Question 4 and 3 */
+.Form1{
+    background-color: gray;
+    display: inline-block; 
+    margin-left: 31rem;
+    border: black 5px solid;
+    border-radius: 5px;
+    padding: 0.5em 0.5em ;
+    width: 25%;
+
+}
+.title{
+display: inline-block;
+ margin-left: 34rem;
+}
+
+.Form1 label{
+    padding: 5px;
+}
+/* Question 5 */
+.field{
+    padding-left: 5px;
+
+}
+#submit{
+    background-color: brown;
+
+}
+form label{
+    font-weight:bold ;
+}
+/* Question 6 */
+.Form1 input[type="text"]{
+    border: 2px solid rebeccapurple;
+}
+/* Question 7 */
+.comment {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.section{
+    width:500px;
+    background-image: url("comment.png");  
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+}
+/* Question 8 */
+.Q8 div{
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin: 5px;
+    width: 400px;
+}
+/* Question 9 */
+.box1{
+    padding: 10px;
+    margin: 10px;
+    background-color: aquamarine;
+    box-sizing: border-box; /* this line will make total size for the div is 300 and with out it 
+    the total size will equal 320 because of 20 for badding*/
+    width: 300px;
+
+}
+.box2{
+    padding: 10px;
+    margin: 10px;
+    background-color: rebeccapurple;
+    width: 300px;
+
+}
